@@ -16,6 +16,7 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden; // to do not see the back part of the div
+    -webkit-backface-visibility: hidden;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: 0.15);
     overflow: hidden; // this is because of the image which is overflowing this smooth corners.
